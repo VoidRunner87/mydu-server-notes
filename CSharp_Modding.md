@@ -25,7 +25,7 @@
 
 * Add port `30000` to the `orleans` container
   * By modifying the `docker-compose.yml` file
-```
+```yaml
   orleans:
     image: ${NQREPO}dual-server-orleans:$NQVERSION
     command: /config/dual.yaml
