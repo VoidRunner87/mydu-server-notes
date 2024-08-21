@@ -1,5 +1,9 @@
 # MyDU Server Notes
 
+Links:
+
+(C# Modding)[CSharp_Modding.md]
+
 ## PVP
 
 ### PVPConfig Changes
