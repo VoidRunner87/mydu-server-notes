@@ -37,7 +37,7 @@ class RecipeModifier:
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
-        print("Usage: py recipe-update.py <mod_file> <file_name> <output_file>")
+        print("Usage: py recipe_mass_update.py <mod_file> <file_name> <output_file>")
         sys.exit(1)
 
     mod_file_path = sys.argv[1]
