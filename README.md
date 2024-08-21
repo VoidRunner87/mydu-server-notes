@@ -2,7 +2,7 @@
 
 Links:
 
-(C# Modding)[CSharp_Modding.md]
+[C# Modding](CSharp_Modding.md)
 
 ## PVP
 
