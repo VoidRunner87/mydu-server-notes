@@ -67,3 +67,22 @@ Change FeaturesList:
   allowIndustryOnDynamicConstruct: true
   allowMarketOnDynamicConstruct: true
 ```
+
+## Speed Configuration
+
+ConstructSpeedConfig:
+
+```yaml
+ConstructSpeedConfig:
+  parent: FeaturesConfig 
+  heavyConstructMass: 3000000
+  maxHeavyLinearSpeedKmH: 100000 # Max heavy speed. Any ship above the value of heavyConstructMass will have this as max speed
+  maxHeavyAngularSpeed: 0.1 # Max heavy rotation speed
+  lightConstructMass: 10000
+  maxLightLinearSpeedKmH: 200000 # Max light construct speed. Any ship above the value of this will start to lose max speed
+  maxLightAngularSpeed: 3 # angular/rotation speed for light constructs
+  convexity: 3.5
+  convergenceDuration: 10
+  useAtmoSpeedLimit: false
+  useRelativisticMassIncrease: false
+```
