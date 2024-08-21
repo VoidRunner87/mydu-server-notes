@@ -42,6 +42,8 @@
       - "30000:30000" # <-- Add PORT HERE
 ```
 * Delete existing Docker Stack and Redeploy the Stack using the `up.bat` or `up.sh` script
+* WARNING: DO NOT leave this port open on your PRODUCTION environment. This is essentially opening the server to the outside world.
+ * On a PRODUCTION environment, the DLL is going to be inside the Mods folder following NQ's documentation
    
 ## Documentation
 
